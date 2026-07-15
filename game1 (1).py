@@ -17,7 +17,7 @@ print("-"*67)
 #user moves to code
 user= input("Enter your move: ").lower()
 codes = {"r":-1,"p":0,"s":1}
-if user not in ("r","p","s"):
+if user not in ("r","p","s","x"):
     print("read the instructions clearly and then  play")
     sys.exit()
 user_code=codes[user]
