@@ -1,3 +1,4 @@
+import system
 from random import choices
 import sys
 print("="*67)
@@ -49,4 +50,7 @@ elif (user_code==0) and (cc==1):
 elif (user_code==-1) and (cc==1):
         print("you win! ")
 elif (user_code==1) and (cc==-1):
-        print("computer win! ")                                                                                                            
+        print("computer win! ")   
+
+
+sys.exit()                                                                                                         
